@@ -1,6 +1,11 @@
-#Ychat
+# Ychat
 
-##Objectives
+You will need to create a public repository with the name `YChat`
+
+## Notions
+* [Golang Documentation : net](https://pkg.go.dev/net)
+
+## Objectives
 
 This project consists in creating a local chat that allow :
 * Comunication in a general chat to talk with all connected users
@@ -10,7 +15,7 @@ This project consists in creating a local chat that allow :
 * Display all connected users
 * Mute users
 
-##Socket
+## Socket
 
 In order to comunicate with differents users you will implement a socket.  
 A socket is a TCP-based protocol for real time and connexion with a server and multiple clients.
@@ -19,3 +24,10 @@ Sockets are popular for application where we need to send data at any time from 
 * social network
 * Multiplayer games
 * Authentification system
+
+## Connexion
+* First start the server side. He will give you his IP adress
+* Start the client side
+* Enter your name
+* Enter the server IP
+
