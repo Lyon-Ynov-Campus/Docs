@@ -30,7 +30,7 @@ Sockets are popular for application where we need to send data at any time from 
 Write a program able to  : 
 * Receive all the local TCP conexion 
 * Handshake the conexion
-* Resend messages from all
+* Resend messages from all  
          ![Socket Sequence Diagram](https://i.imgur.com/XOwkXEM.png)
 
 ## Connexion
