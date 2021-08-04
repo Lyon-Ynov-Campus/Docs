@@ -30,8 +30,18 @@ Sockets are popular for application where we need to send data at any time from 
 Write a program able to  : 
 * Receive all the local TCP conexion 
 * Handshake the conexion
-* Resend messages from all  
+* Resend messages from all
+* Send all connected users
 ![Socket Sequence Diagram](https://i.imgur.com/93wpfnu.png)
+
+### Client side
+Write a program able to :
+* Take your name
+* Take the server IP
+* Connect to the server
+* Send message to the chat
+* Mute people
+* Receive all connected users
 
 ## Connexion
 * First start the server side. He will give you his IP adress
