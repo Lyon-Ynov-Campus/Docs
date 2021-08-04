@@ -1,4 +1,4 @@
-# Ychat
+# YChat
 
 You will need to create a public repository with the name `YChat`
 
