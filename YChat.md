@@ -32,7 +32,6 @@ Write a program able to  :
 * Handshake the conexion
 * Resend messages from all
 * Send all connected users
-![Socket Sequence Diagram](https://i.imgur.com/93wpfnu.png)
 
 ### Client side
 Write a program able to :
@@ -41,7 +40,9 @@ Write a program able to :
 * Connect to the server
 * Send message to the chat
 * Mute people
-* Receive all connected users
+* Receive all connected users  
+  
+![Socket Sequence Diagram](https://i.imgur.com/93wpfnu.png)
 
 ## Connexion
 * First start the server side. He will give you his IP adress
