@@ -31,7 +31,7 @@ Write a program able to  :
 * Receive all the local TCP conexion 
 * Handshake the conexion
 * Resend messages from all  
-![Socket Sequence Diagram](https://i.imgur.com/Y77qjiY.png)
+![Socket Sequence Diagram](https://i.imgur.com/93wpfnu.png)
 
 ## Connexion
 * First start the server side. He will give you his IP adress
