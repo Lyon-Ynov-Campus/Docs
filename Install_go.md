@@ -1,24 +1,40 @@
-Avant de commancer veiller a vien avoir un wsl2 d'installer sur votre machine
+Avant de commencer veillez a bien avoir installé WSL2 sur votre machine [via la doc suivante](https://github.com/Lyon-Ynov-Campus/Docs/blob/main/WSL2.md)
 
 * Pour commencer rendez vous sur le site de [golang](https://golang.org/doc/install)
 
-* Une foi sur le site cliquer sur linux dans le 2. Puis cliquer sur Télécharger Go pour Linux dans la 1. (Attention le site est en anglais). 
-Cela demarera un telechargement d'un fichier tar ne le decompresser pas.
+* Une fois sur le site cliquez sur Linux dans la partie 2. Puis cliquez sur `Télécharger Go pour Linux ` dans la partie 1. (Attention le site est en anglais).<br>
+Cela demarrera le téléchargement d'une archive tar, **ne la décompressez pas tout de suite.**
 
-* Ouvrez un explorateur de fichier puis ans le chemin c'acces au fichier placez y ce-ci ```\\wsl$```, cliquer sur votre vertion de linux puis dans home, et pour finir sur votre compte utilisateur.
+* Ouvrez un explorateur de fichier Windows, puis dans le chemin d'acces au fichier placez y ceci ```\\wsl$```.
+Cela vous redirige sur les dossiers de WSL.
+Une fois dedans cliquez sur votre version de Linux puis dans `home`, et pour finir sur votre compte utilisateur.
 
-* Placer l'archive telecharger precedament a cette endroit.
+* Placer l'archive téléchargée précédemment à cet endroit.
 
-* ouvrez le terminal WSL (linux) puis executer la commande suivante. 
-```rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.linux-amd64.tar.gz```
+* Ouvrez un terminal WSL (linux) puis executez la commande suivante. 
+```
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.linux-amd64.tar.gz
+```
+Cette commande supprime l'ancienne version de go si existente, puis décompresse l'archive dans le dossier `/usr/local`
 
+::: danger
 Important 🚩 : cette étape supprimera une installation précédente dans ```/usr/local/go```, le cas échéant, avant l'extraction. Veuillez sauvegarder toutes les données avant de continuer.
+:::
 
 (si premiere install no problem (╯°□°）╯︵ ┻━┻ )
 
-* puis executer ```export PATH="$PATH:/usr/local/go/bin"```
-Remarque : les modifications apportées à un fichier de profil peuvent ne s'appliquer qu'à la prochaine connexion à votre ordinateur. Pour appliquer les modifications immédiatement, exécutez simplement les commandes shell directement ou exécutez-les à partir du profil à l'aide d'une commande telle que source $HOME/.profile.
+* Dans le fichier `.bashrc` se trouvant dans votre `/home/username` coller la commande suivante: 
+``` bash
+export PATH="$PATH:/usr/local/go/bin"
+```
 
-Vérifiez que vous avez installé Go en ouvrant une invite de commande et en tapant la commande suivante :
-```$ go version```
+* Pour terminer executer la commande suivante afin d'appliquer les changement à votre terminal.
+``` bash
+source ~/.bashrc
+```
+
+* Vérifiez que vous avez installé Go et que la version est la bonne,tappez la commande suivante :
+```
+go version
+```
 Confirmez que la commande imprime la version installée de Go.
