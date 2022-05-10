@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Vehicles_exemples/1.0.0": {
+        "runtime": {
+          "Vehicles_exemples.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vehicles_exemples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
