@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  cp1:
+    build: .
+    ports:
+      - "23:22"
+  cp2:
+    build: .
+    ports:
+      - "24:22"
