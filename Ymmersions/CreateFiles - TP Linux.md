@@ -7,20 +7,18 @@ Le but de ce TP est de reproduire une arborescence de fichiers. Vous pourrez tes
 ### Reproduire l'arborescence
 
 Reproduire l'arborescence ci-dessous :
-<img src="https://imgur.com/zyB3bFa">
+![alt text](https://imgur.com/zyB3bFa)
 
 <br>
 
 ### Ecrire dans les fichiers texte
-```
-``` 
+
 > - CreateFiles/TextFile1.txt --> **Bonjour je suis étudiant**
 > - CreateFiles/Directory1/TextFile1.txt --> **Je suis en filière informatique**
 > - CreateFiles/Directory1/TextFile2.txt --> **Je suis en première année**
 > - CreateFiles/Directory1/Subdirectory/TextFile1.txt --> **J'apprends les bases de linux**
 > - CreateFiles/Directory2/TextFile1.txt --> **Les mentors sont trop cool**
-``` 
-```
+
 
 <br>
 
@@ -28,7 +26,7 @@ Reproduire l'arborescence ci-dessous :
 
 A partir du répertoire CreateFiles/Directory3/ créer les fichiers avec les mêmes permissions et les dates des différents fichiers comme l'image ci-dessous (ls -l pour lister les fichiers avec cet affichage) :
 
-<img src="https://imgur.com/qR32mln">
+![alt text](https://imgur.com/qR32mln")
 
 <br>
 
