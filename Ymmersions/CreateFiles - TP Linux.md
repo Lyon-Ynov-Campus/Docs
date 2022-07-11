@@ -12,7 +12,7 @@ Reproduire l'arborescence ci-dessous :
 <br>
 
 ### Ecrire dans les fichiers texte
-
+```
 ``` 
 > - CreateFiles/TextFile1.txt --> **Bonjour je suis étudiant**
 > - CreateFiles/Directory1/TextFile1.txt --> **Je suis en filière informatique**
@@ -20,6 +20,7 @@ Reproduire l'arborescence ci-dessous :
 > - CreateFiles/Directory1/Subdirectory/TextFile1.txt --> **J'apprends les bases de linux**
 > - CreateFiles/Directory2/TextFile1.txt --> **Les mentors sont trop cool**
 ``` 
+```
 
 <br>
 
@@ -33,7 +34,7 @@ A partir du répertoire CreateFiles/Directory3/ créer les fichiers avec les mê
 
 ### Script de test
 
-##### Vous pouvez tester si vous avez bien effectué le TP en utilisant le script derrière :
+##### Vous pouvez tester si vous avez bien effectué le TP en utilisant le script ci-dessous :
 ```
 écrire le script ici
 ```
