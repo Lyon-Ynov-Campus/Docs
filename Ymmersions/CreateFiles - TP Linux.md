@@ -41,4 +41,4 @@ Téléchargez le fichier CheckFiles.sh puis mettez-le dans le répertoire **Crea
 
 #### Lancer le script
 
-Pour lancer le script, il vous suffit de lui donner les permissions d'exécution et d'écriture (chmod 500 <fichier>) puis de le lancer avec **./CheckFiles.sh**.
+Pour lancer le script, il vous suffit de lui donner les permissions d'exécution et d'écriture (chmod 500 CreateFiles/CheckFiles.sh) puis de le lancer avec **./CheckFiles.sh**.
