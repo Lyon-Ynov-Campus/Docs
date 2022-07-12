@@ -37,8 +37,8 @@ A partir du répertoire CreateFiles/Directory3/ créer les fichiers TextFile1.tx
 
 Vous pouvez désormais tester si vous avez réussi tout le TP en lançant un script que vous pouvez retrouver [ici](https://raw.githubusercontent.com/Lyon-Ynov-Campus/Docs/main/Ymmersions/CheckFiles.sh).
 
-Téléchargez le fichier CheckFiles.sh puis mettez-le dans le répertoire **CreateFiles/** (de façon à ce que son chemin d'accès soit **/CreateFiles/CheckFiles.sh**)
+Téléchargez le fichier CheckFiles.sh puis mettez-le dans le répertoire **./CreateFiles/** (de façon à ce que son chemin d'accès soit **/CreateFiles/CheckFiles.sh**)
 
 #### Lancer le script
 
-Pour lancer le script, il vous suffit de lui donner les permissions d'exécution et d'écriture (chmod 500 CreateFiles/CheckFiles.sh) puis de le lancer avec **./CheckFiles.sh**.
+Pour lancer le script, il vous suffit de lui donner les permissions d'exécution et d'écriture (chmod 500 ./CreateFiles/CheckFiles.sh) puis de le lancer avec **./CheckFiles.sh**.
