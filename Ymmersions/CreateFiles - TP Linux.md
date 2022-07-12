@@ -1,5 +1,7 @@
 # TP Linux - CreateFiles
 
+### Objectif
+
 Après avoir vu les commandes de base en Linux, nous allons tester vos compétences dans ce TP.
 Le but de ce TP est de reproduire une arborescence de fichiers. Vous pourrez tester votre arborescence avec un script qui vous est fourni.
 <br>
@@ -23,11 +25,11 @@ Reproduire l'arborescence ci-dessous :
 
 <br>
 
-### Modification de droits de fichiers et de date
+### Modification de droits, de dates de fichiers et liens symboliques
 
-A partir du répertoire CreateFiles/Directory3/ créer les fichiers avec les mêmes permissions et les dates des différents fichiers comme l'image ci-dessous (ls -l pour lister les fichiers avec cet affichage) :
+A partir du répertoire CreateFiles/Directory3/ créer les fichiers avec les mêmes permissions, les dates des différents fichiers et les différents liens symboliques comme l'image ci-dessous (ls -l pour lister les fichiers avec cet affichage) :
 
-![Droits fichiers](https://i.imgur.com/qR32mln.png)
+![Droits fichiers](https://i.imgur.com/DHs0Lda)
 
 <br>
 
