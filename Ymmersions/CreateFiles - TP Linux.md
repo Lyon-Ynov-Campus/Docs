@@ -27,7 +27,7 @@ Reproduire l'arborescence ci-dessous :
 
 ### Modification de droits, de dates de fichiers et liens symboliques
 
-A partir du répertoire CreateFiles/Directory3/ créer les fichiers avec les mêmes permissions, les dates des différents fichiers et les différents liens symboliques comme l'image ci-dessous (ls -l pour lister les fichiers avec cet affichage) :
+A partir du répertoire CreateFiles/Directory3/ créer les fichiers TextFile1.txt et TextFile2.txt avec les mêmes permissions, les dates des différents fichiers et les fichiers TextFile3.txt et TextFile4.txt avec les différents liens symboliques comme l'image ci-dessous (ls -l pour lister les fichiers avec cet affichage) :
 
 ![Droits fichiers](https://i.imgur.com/RV8NbB3.png)
 
@@ -35,9 +35,10 @@ A partir du répertoire CreateFiles/Directory3/ créer les fichiers avec les mê
 
 ### Script de test
 
-##### Vous pouvez tester si vous avez bien effectué le TP en utilisant le script ci-dessous :
-```
-écrire le script ici
-```
+Vous pouvez désormais tester si vous avez réussi tout le TP en lançant un script que vous pouvez retrouver [ici](https://raw.githubusercontent.com/Lyon-Ynov-Campus/Docs/main/Ymmersions/CheckFiles.sh).
+
+Téléchargez le fichier CheckFiles.sh puis mettez-le dans le répertoire **CreateFiles/** (de façon à ce que son chemin d'accès soit **/CreateFiles/CheckFiles.sh**)
 
 ##### Lancer le script
+
+Pour lancer le script, il vous suffit de lui donner les permissions d'exécution et d'écriture (chmod 500 <fichier>) puis de le lancer avec **./CheckFiles.sh**.
