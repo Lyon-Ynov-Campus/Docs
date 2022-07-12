@@ -29,7 +29,7 @@ Reproduire l'arborescence ci-dessous :
 
 A partir du répertoire CreateFiles/Directory3/ créer les fichiers avec les mêmes permissions, les dates des différents fichiers et les différents liens symboliques comme l'image ci-dessous (ls -l pour lister les fichiers avec cet affichage) :
 
-![Droits fichiers](https://i.imgur.com/DHs0Lda.png)
+![Droits fichiers](https://i.imgur.com/RV8NbB3.png)
 
 <br>
 
