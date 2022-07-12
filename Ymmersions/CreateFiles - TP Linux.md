@@ -39,6 +39,6 @@ Vous pouvez désormais tester si vous avez réussi tout le TP en lançant un scr
 
 Téléchargez le fichier CheckFiles.sh puis mettez-le dans le répertoire **CreateFiles/** (de façon à ce que son chemin d'accès soit **/CreateFiles/CheckFiles.sh**)
 
-##### Lancer le script
+#### Lancer le script
 
 Pour lancer le script, il vous suffit de lui donner les permissions d'exécution et d'écriture (chmod 500 <fichier>) puis de le lancer avec **./CheckFiles.sh**.
