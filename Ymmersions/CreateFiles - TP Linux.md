@@ -8,7 +8,7 @@ Le but de ce TP est de reproduire une arborescence de fichiers. Vous pourrez tes
 
 Reproduire l'arborescence ci-dessous :
 
-[![image alt text]("https://imgur.com/zyB3bFa")]
+![Arborescence]("https://imgur.com/zyB3bFa")
 
 <br>
 
@@ -27,7 +27,7 @@ Reproduire l'arborescence ci-dessous :
 
 A partir du répertoire CreateFiles/Directory3/ créer les fichiers avec les mêmes permissions et les dates des différents fichiers comme l'image ci-dessous (ls -l pour lister les fichiers avec cet affichage) :
 
-[![image alt text]("https://imgur.com/qR32mln")]
+![Droits fichiers]("https://imgur.com/qR32mln")
 
 <br>
 
