@@ -8,14 +8,36 @@ Après avoir vu les différentes techniques d'organisation de projet, vous devre
 ### Définition du projet
 
 Définissez un groupe de 4 à 5 personnes.
-Trouvez une idée de projet fictif. Voici quelques idées :
-> - Créer un blog
-> - Créer un forum
-> - Créer une application Click&Collect
-> - Créer une application de streaming (musique, films, séries, etc...)
-> - Créer une application qui scanne des QR Code
-> - ...
+Nous vous fournissons le fichier **main.go** avec le code ci-dessous :
+```
+package main
 
+import (
+	"github.com/01-edu/z01"
+)
+
+func main() {
+    tab := []int{45, 12, 24, 4, 1}
+	tab = SortTab(tab)
+	tab = CalculateTab(tab)
+	tab = SquareTab(tab)
+	tab = PrimeTab(tab)
+	for _, k := range tab {
+		if k == 7 {
+			z01.PrintRune('7')
+			z01.PrintRune('\n')
+		}
+	}
+}
+```
+
+Vous devrez, en vous répartissant les différentes tâches, effectuer chacune des 4 fonctions ci-dessous :
+> - SortTab --> Fonction qui prend en entrée un tableau d'entiers et retourne ce même tableau trié par ordre croissant
+> - CalculateTab --> Fonction qui prend en entrée un tableau d'entiers et retourne un tableau de tous ces entiers modifiés avec la fonction f(x) = 2(3x+4x) avec x chaque entier du tableau en entrée
+> - SquareTab --> Fonction qui prend en entrée un tableau d'entiers et retourne un tableau des racines carrées de chacun de ces nombres
+> - PrimeTab --> Fonction qui prend en entrée un tableau d'entiers et retourne un tableau avec uniquement les nombres premiers du tableau en entrée
+
+La fonction main devra retourner le chiffre **7**. Si ce n'est pas le cas c'est que les fonctions sont fausses.
 <br>
 
 ### Définition et répartition des tâches
@@ -36,4 +58,4 @@ Pour rappel, voici une image :
 
 ### A vous de jouer !
 
-Après avoir effectué toutes les étapes, appelez un mentor pour valider ou non.
+Après avoir réuni toutes vos fonctions en une branche, et après les avoir testé avec notre fonction **main**, appelez un mentor pour valider ou non.
