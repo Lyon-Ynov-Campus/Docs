@@ -9,8 +9,10 @@ Après avoir vu les différentes techniques d'organisation de projet, vous devre
 
 Définissez un groupe de 4 à 5 personnes.
 Trouvez une idée de projet fictif. Voici quelques idées :
-> - Créer un site web pour une entreprise
-> - Créer une application pour une entreprise
+> - Créer un blog
+> - Créer un forum
+> - Créer une application Click&Collect
+> - Créer une application de streaming (musique, films, séries, etc...)
 > - Créer une application qui scanne des QR Code
 > - ...
 
