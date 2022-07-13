@@ -18,7 +18,7 @@ Trouvez une idée de projet fictif. Voici quelques idées :
 ### Définition et répartition des tâches
 
 Maintenant que vous avez défini votre projet, définissez les tâches. Créez un trello en reproduisant le modèle que l'on vous a présenté : 
-[cliquez ici](https://trello.com/).
+[trello](https://trello.com/).
 Répartissez-vous les différentes tâches entre vous.
 
 <br>
@@ -28,7 +28,7 @@ Répartissez-vous les différentes tâches entre vous.
 Maintenant que vous vous êtes répartis les tâches, créez votre repository sur github, puis ajoutez chaque membre du groupe comme collaborateur. 
 Par la suite, organisez votre répo avec la recette Git Workflow.
 Pour rappel, voici une image :
-![git workflow](https://i.imgur.com/WbxX8ef.png)
+![git workflow](https://i.imgur.com/qQVJStx.png)
 
 <br>
 
