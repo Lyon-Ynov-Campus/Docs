@@ -52,6 +52,7 @@ Répartissez-vous les différentes tâches entre vous.
 Maintenant que vous vous êtes répartis les tâches, créez votre repository sur [github](https://github.com/), puis ajoutez chaque membre du groupe comme collaborateur. 
 Par la suite, organisez votre répo avec la recette Git Workflow.
 Pour rappel, voici une image :
+
 ![git workflow](https://i.imgur.com/qQVJStx.png)
 
 <br>
