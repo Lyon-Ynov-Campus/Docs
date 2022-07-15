@@ -1,19 +1,19 @@
-# TP - Hangman
+# Exercise - Hangman
 
-### Objectif
+### Objective
 
-Pour le projet Hangman, vous devrez savoir lire des entrées standard, lire et écrire dans des fichiers.
+For the Hangman project, you will need to know how to read standard input, read and write to files.
 <br>
 
-### Contraintes
+### Restrictions
 
-Avant d'effectuer le TP, prenez en compte que vous n'avez le droit qu'aux package autorisés pour le projet **Hangman**
+Before you start the exercise, please note that you are only allowed to use the packages authorized for the **Hangman** project
 
-### TP
+### Exercise
 
-Vous devrez, dans le terminal demander à l'utilisateur d'entrer son nom, son prénom et son âge.
-Ces informations seront ensuite enregistrées dans un fichier **infos.txt**. 
-Par la suite vous devrez lire le fichier **infos.txt**, et les insérer dans une structure.
+In the terminal, you will have to ask the user to enter his last name, first name and age.
+These informations will be saved in a file named **infos.txt**.
+Then, you will have to read the informations saved in the file **infos.txt**, insert them in the structure below :
 
 ```
 type InfosUser struct {
@@ -23,16 +23,23 @@ type InfosUser struct {
 }
 ```
 
-Vous devrez par la suite, afficher dans le terminal toutes les informations stockées dans cette structure.
+Then, you will have to display all the information stored in this structure.
 <br>
 
 ### Documentation
 
 > - [ioutil](https://golang.org/pkg/ioutil/)
 > - [readfile](https://zetcode.com/golang/readfile/)
+> - [bufio](https://pkg.go.dev/bufio)
 
 <br>
 
-### A vous de jouer !
+### Result
 
-Après avoir terminé le TP, appelez un mentor pour le valider ou non !
+This is the result you should have :
+
+![result tp hangman](https://imgur.com/yfQ8nKq)
+
+### Finish
+
+After completing the exercise, call a mentor to validate it or not !
