@@ -23,7 +23,7 @@ type InfosUser struct {
 }
 ```
 
-Then, you will have to display all the information stored in this structure.
+Now, you will have to display all the information stored in this structure.
 <br>
 
 ### Documentation
