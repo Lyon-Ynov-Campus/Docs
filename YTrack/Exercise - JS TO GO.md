@@ -41,7 +41,7 @@ You need absolutely these **ressources** below to succeed this exercise.
 
 This is the result you should have :
 
-![result tp js to go]()
+![result tp js to go](https://i.imgur.com/PPn11Dh.gif)
 
 ### Finish
 
