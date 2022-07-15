@@ -2,7 +2,7 @@
 
 ### Objective
 
-For the Hangman project, you will need to know how to read standard input, read and write to files.
+For the Hangman project, you will need to know how to read and write standard input.
 <br>
 
 ### Restrictions
