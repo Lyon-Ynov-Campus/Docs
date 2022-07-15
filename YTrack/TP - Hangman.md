@@ -38,7 +38,7 @@ Then, you will have to display all the information stored in this structure.
 
 This is the result you should have :
 
-![result tp hangman](https://imgur.com/yfQ8nKq)
+![result tp hangman](https://i.imgur.com/yfQ8nKq.gif)
 
 ### Finish
 
