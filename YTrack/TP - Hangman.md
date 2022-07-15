@@ -28,6 +28,8 @@ Then, you will have to display all the information stored in this structure.
 
 ### Documentation
 
+You need absolutely these **ressources** below to succeed this exercise.
+
 > - [ioutil](https://golang.org/pkg/ioutil/)
 > - [readfile](https://zetcode.com/golang/readfile/)
 > - [bufio](https://pkg.go.dev/bufio)
