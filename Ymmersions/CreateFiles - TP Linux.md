@@ -1,20 +1,20 @@
-# TP Linux - CreateFiles
+# Exercise Linux - CreateFiles
 
-### Objectif
+### Objective
 
-Après avoir vu les commandes de base en Linux, nous allons tester vos compétences dans ce TP.
-Le but de ce TP est de reproduire une arborescence de fichiers. Vous pourrez tester votre arborescence avec un script qui vous est fourni.
+You learned several basic commands in Linux, we will test your skills with this exercise.
+The goal of this exercise is to reproduce a file tree with particular parameters. You will be able to test your tree structure with a script that is provided.
 <br>
 
-### Reproduire l'arborescence
+### Reproduce the tree structure
 
-Reproduire l'arborescence ci-dessous :
+Reproduce the tree structure below :
 
 ![Arborescence](https://i.imgur.com/zyB3bFa.png)
 
 <br>
 
-### Ecrire dans les fichiers texte
+### Write in text files
 
 > - CreateFiles/TextFile1.txt --> **Bonjour je suis étudiant**
 > - CreateFiles/Directory1/TextFile1.txt --> **Je suis en filière informatique**
@@ -25,20 +25,21 @@ Reproduire l'arborescence ci-dessous :
 
 <br>
 
-### Modification de droits, de dates de fichiers et liens symboliques
+### Modification of rights, file dates and symbolic links
 
-A partir du répertoire CreateFiles/Directory3/ créer les fichiers TextFile1.txt et TextFile2.txt avec les mêmes permissions, les dates des différents fichiers et les fichiers TextFile3.txt et TextFile4.txt avec les différents liens symboliques comme l'image ci-dessous (ls -l pour lister les fichiers avec cet affichage) :
+From the **CreateFiles/Directory3/ directory**, create the files **TextFile1.txt** and **TextFile2.txt** with the same permissions, the same dates as presented in the image below.
+Create the files **TextFile3.txt** and **TextFile4.txt** with the same symbolic links as presented in the image below (ls -l to list the files with this display) :
 
 ![Droits fichiers](https://i.imgur.com/RV8NbB3.png)
 
 <br>
 
-### Script de test
+### Download the test script
 
-Vous pouvez désormais tester si vous avez réussi tout le TP en lançant un script que vous pouvez retrouver [ici](https://raw.githubusercontent.com/Lyon-Ynov-Campus/Docs/main/Ymmersions/CheckFiles.sh).
+You can test your exercise by running the script that you can find [here](https://raw.githubusercontent.com/Lyon-Ynov-Campus/Docs/main/Ymmersions/CheckFiles.sh).
 
-Téléchargez le fichier CheckFiles.sh puis mettez-le dans le répertoire **./CreateFiles/** (de façon à ce que son chemin d'accès soit **/CreateFiles/CheckFiles.sh**)
+Download the CheckFiles.sh file and put it in the **./CreateFiles/** directory (so that its path is **/CreateFiles/CheckFiles.sh**)
 
-#### Lancer le script
+#### Run the script
 
-Pour lancer le script, il vous suffit de lui donner les permissions d'exécution et d'écriture (chmod 500 ./CreateFiles/CheckFiles.sh) puis de le lancer avec **./CheckFiles.sh**.
+To run the script, you must give it the execute and write rights (chmod 500 ./CreateFiles/CheckFiles.sh) and then you can run it with **./CheckFiles.sh**.
