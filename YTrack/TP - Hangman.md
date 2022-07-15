@@ -2,7 +2,7 @@
 
 ### Objective
 
-For the Hangman project, you will need to know how to read standard input, read and write to files.
+For the Hangman project, you will need to know how to read and write standard input.
 <br>
 
 ### Restrictions
@@ -13,7 +13,7 @@ Before you start the exercise, please note that you are only allowed to use the 
 
 In the terminal, you will have to ask the user to enter his last name, first name and age.
 These informations will be saved in a file named **infos.txt**.
-Then, you will have to read the informations saved in the file **infos.txt**, insert them in the structure below :
+Then, you will have to read the informations saved in the file **infos.txt** and insert them in the structure below :
 
 ```
 type InfosUser struct {
@@ -23,7 +23,7 @@ type InfosUser struct {
 }
 ```
 
-Then, you will have to display all the information stored in this structure.
+Now, you will have to display all the information stored in this structure.
 <br>
 
 ### Documentation
