@@ -1,14 +1,14 @@
-# TP - Gestion de projet
+# Exercise - Project Management
 
-### Objectif
+### Objective
 
-Après avoir vu les différentes techniques d'organisation de projet, vous devrez les mettre en pratique en réalisant le TP qui va suivre.
+You learned several techniques to manage a project. Now you have to use them to realize the exercise below.
 <br>
 
-### Définition du projet
+### Project definition
 
-Définissez un groupe de 4 à 5 personnes.
-Nous vous fournissons le fichier **main.go** avec le code ci-dessous :
+Set up a group of 4 people.
+We give you the file **main.go** with the code below :
 ```
 package main
 
@@ -31,32 +31,32 @@ func main() {
 }
 ```
 
-Vous devrez, en vous répartissant les différentes tâches, effectuer chacune des 4 fonctions ci-dessous :
-> - SortTab --> Fonction qui prend en entrée un tableau d'entiers et retourne ce même tableau trié par ordre croissant
-> - CalculateTab --> Fonction qui prend en entrée un tableau d'entiers et retourne un tableau de tous ces entiers modifiés avec la fonction f(x) = 2(3x+4x) avec x chaque entier du tableau en entrée
-> - SquareTab --> Fonction qui prend en entrée un tableau d'entiers et retourne un tableau des racines carrées de chacun de ces nombres
-> - PrimeTab --> Fonction qui prend en entrée un tableau d'entiers et retourne un tableau avec uniquement les nombres premiers du tableau en entrée
+You have to do the 4 functions below, dividing the tasks between you :
+> - SortTab --> Function that takes as parameter an array of integers and returns this array sorted in ascending order.
+> - CalculateTab --> Function that takes as parameter an array of integers and returns an array of all these integers modified with the function f(x) = 2(3x+4x) with x each integer of the array as parameter.
+> - SquareTab --> Function that takes as parameter an array of integers and returns an array of the square roots of each of these numbers.
+> - PrimeTab --> Function that takes as parameter an array of integers and returns an array only with the prime numbers of this array.
 
-La fonction main devra retourner le chiffre **7**. Si ce n'est pas le cas c'est que les fonctions sont fausses.
+The main function must return the number **7**. If it's not the case, the functions aren't correct.
 <br>
 
-### Définition et répartition des tâches
+### Definition and distribution of tasks
 
-Maintenant que vous avez défini votre projet, définissez les tâches. Créez un [trello](https://trello.com/) en reproduisant le modèle que l'on vous a présenté.
-Répartissez-vous les différentes tâches entre vous.
+Now that you've defined your project, define the tasks. Create a [trello](https://trello.com/) by reproducing the model that we presented to you.
+Divide the different tasks between you.
 
 <br>
 
-### Organisation du répo github
+### Organization of the github repository
 
-Maintenant que vous vous êtes répartis les tâches, créez votre repository sur [github](https://github.com/), puis ajoutez chaque membre du groupe comme collaborateur. 
-Par la suite, organisez votre répo avec la recette Git Workflow.
-Pour rappel, voici une image :
+Now that you've divided the tasks, create your [github](https://github.com/) repository, then add each group member as a collaborator. 
+Then, organize your repository with the Git Workflow recipe.
+As a reminder, this is an example of Git Workflow organization :
 
 ![git workflow](https://i.imgur.com/qQVJStx.png)
 
 <br>
 
-### A vous de jouer !
+### Finish
 
-Après avoir réuni toutes vos fonctions en une branche, et après les avoir testé avec notre fonction **main**, appelez un mentor pour valider ou non.
+If you've gathered all your functions in the main branch, and after testing them with our **main** function, call a mentor to validate or not.
