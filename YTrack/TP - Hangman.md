@@ -13,7 +13,7 @@ Before you start the exercise, please note that you are only allowed to use the 
 
 In the terminal, you will have to ask the user to enter his last name, first name and age.
 These informations will be saved in a file named **infos.txt**.
-Then, you will have to read the informations saved in the file **infos.txt**, insert them in the structure below :
+Then, you will have to read the informations saved in the file **infos.txt** and insert them in the structure below :
 
 ```
 type InfosUser struct {
