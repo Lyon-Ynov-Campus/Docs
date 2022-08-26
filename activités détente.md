@@ -57,3 +57,14 @@ A la fin, il y aura un classement par nombre de points.
 > - 3ème : Sticker en bronze
 
 <br>
+
+### Escape Game
+
+Escape Game. Durée : 2h.
+
+
+##### Récompenses
+
+> Pas de récompense.
+
+<br>
