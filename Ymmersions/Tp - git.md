@@ -4,6 +4,14 @@
   #### Ressources : https://lyon-ynov-campus.github.io/Docs/Setup/GitCheatSheet
   
   
+  ## Objectifs
+  - Utiliser et comprendre les commandes de bases 
+  - Créer un repository et comprendre les envois et la reception de fichier 
+  - Gérer les differents conflicts presents
+  - Créer le repo pour votre challenge golang 
+  
+  
+  
   ## Exercice 1
   
   1. Clone le repository de la classe.
