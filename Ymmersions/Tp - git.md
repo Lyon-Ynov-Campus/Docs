@@ -6,8 +6,8 @@
   
   ## Objectifs
   - Utiliser et comprendre les commandes de bases 
-  - Créer un repository et comprendre les envois et la reception de fichier 
-  - Gérer les differents conflicts presents
+  - Créer un repository et comprendre les envois et la réception de fichier 
+  - Gérer les différents conflits présents
   - Créer le repo pour votre challenge golang 
   
   
@@ -16,24 +16,24 @@
   
   1. Clone le repository de la classe.
   
-  2. Créer un fichier txt et écrire une phrase à l'interieur nommez le: votre-prenom.txt
+  2. Créer un fichier txt et écrire une phrase à l'intérieur puis nommez-le: votre-prenom.txt
  
-  3. Récuperer les fichiers existants.
+  3. Récupérer les fichiers existants.
  
-  4. Modifier le fichier de son voisin changer une partie du txt, renvoyez le sur git.
+  4. Modifier le fichier de son voisin et changer une partie du txt puis renvoyez-le sur git.
  
-  5.  Récuperer le votre fichier modifié apr votre voisin.
+  5. Récuperer le fichier modifié par votre voisin.
   
-  6. Gerer le conflit   
+  6. Gérer le conflit   
   
   ## Exercice 2
   
-  1. Rendez-vous sur Gitea : https://git.ytrack.learn.ynov.com/ et créer votre repository intitulé "challenge-lyon-2223".
+  1. Rendez-vous sur Gitea : https://git.ytrack.learn.ynov.com/ et créez votre repository intitulé "challenge-lyon-2223".
   2. Clone votre repository.
   
   3. Créez un fichier README.md 
   
-  4. Ecriver "Challenge-go" 
+  4. Ecrivez "Challenge-go" 
   
   5. Push son README.
   
