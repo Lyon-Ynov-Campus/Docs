@@ -109,7 +109,7 @@ result.LastInsertId()
 > Pour rappel, l'id doit s'incrémenter automatiquement.
 
 
-<div style="color: #31708f;
+<!-- <div style="color: #31708f;
     background-color: #d9edf7;
     border-color: #bce8f1;
     padding: 15px;">
@@ -118,7 +118,7 @@ INSERT INTO
 **et**
 
 db.Exec
-</div>
+</div> -->
 
 <br>
 
@@ -149,7 +149,7 @@ func selectAllFromTable(db *sql.DB, table string) *sql.Rows;
 * Dans un second temps, affichez toutes ces lignes *(cf ressources + utilisez la structure)*
 
 
-<div style="color: #31708f;
+<!-- <div style="color: #31708f;
     background-color: #d9edf7;
     border-color: #bce8f1;
     padding: 15px;">
@@ -158,7 +158,7 @@ func selectAllFromTable(db *sql.DB, table string) *sql.Rows;
  **et**
  
  db.Query
-</div>
+</div> -->
 
 #### 2.2 ---
 
@@ -172,7 +172,7 @@ func selectUserById(db *sql.DB, id int) User;
 * Dans un second temps, affichez cet utilisateur
 
 
-<div style="color: #31708f;
+<!-- <div style="color: #31708f;
     background-color: #d9edf7;
     border-color: #bce8f1;
     padding: 15px;">
@@ -181,7 +181,7 @@ func selectUserById(db *sql.DB, id int) User;
  **et**
  
  db.QueryRow
-</div>
+</div> -->
 
 #### 2.3 ---
 
@@ -202,7 +202,7 @@ selectUserNameWithPattern(db, "as");
 {3, Lucas, l.l@gmail.com, klmno}
 ```
 
-<div style="color: #31708f;
+<!-- <div style="color: #31708f;
     background-color: #d9edf7;
     border-color: #bce8f1;
     padding: 15px;">
@@ -211,7 +211,7 @@ selectUserNameWithPattern(db, "as");
  **et**
  
  db.Query
-</div>
+</div> -->
 
 <br>
 
@@ -250,7 +250,7 @@ La table doit se présenter comme suit :
 - Tout les champs doivent être marque comme **NOT NULL**
 - Lorsque vous relancer le programme la table doit rester intact et ne pas écraser celle qui existait déjà
 
-<div style="color: #31708f;
+<!-- <div style="color: #31708f;
     background-color: #d9edf7;
     border-color: #bce8f1;
     padding: 15px;">
@@ -260,7 +260,7 @@ FOREIGN KEY ... REFERENCES ...
 **et**
 
 db.Exec
-</div>
+</div> -->
 
 #### 3.2 ---
 
@@ -277,7 +277,7 @@ Maintenant la table créée, insérez cinq nouveaux posts dans la table `posts`.
 
 > Pour rappel, l'id du post doit s'incrémenter automatiquement.
 
-<div style="color: #31708f;
+<!-- <div style="color: #31708f;
     background-color: #d9edf7;
     border-color: #bce8f1;
     padding: 15px;">
@@ -286,7 +286,7 @@ INSERT INTO
 **et**
 
 db.Exec
-</div>
+</div> -->
 
 #### 3.3 ---
 
