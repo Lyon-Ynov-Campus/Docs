@@ -74,7 +74,7 @@ La table doit se présenter comme suit :
 - Tout les champs doivent être marque comme **NOT NULL**
 - Lorsque vous relancer le programme la table doit rester intact et ne pas écraser celle qui existait déjà
 
-<div style="color: #31708f;
+<!-- <div style="color: #31708f;
     background-color: #d9edf7;
     border-color: #bce8f1;
     padding: 15px;">
@@ -83,7 +83,7 @@ CREATE TABLE
 **et**
 
 db.Exec
-</div>
+</div> -->
 
 #### 1.2 ---
 
