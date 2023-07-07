@@ -1,5 +1,5 @@
 # Qu'est-ce que WSL ?
-WSL vous permet d'éxécuter et d'utiliser un environnement Linux sous windows sans avoir la contrainte d'utiliser une machine virtuel.
+WSL vous permet d'éxécuter et d'utiliser un environnement Linux sous windows sans avoir la contrainte d'utiliser une machine virtuelle.
 
 # Installation WSL
 ## Configuration requise
