@@ -27,7 +27,9 @@ go get github.com/gocolly/colly/v2
 import "github.com/gocolly/colly/v2"
 ```
 
-Then, you have to use these modules in order to scrape data from an e-commerce website, and extract them to a .csv file.
+Then, you have to use this package in order to scrape data from an e-commerce website, and extract them to a .json file.
+You will need also [OS](https://pkg.go.dev/os) and [encoding/json](https://pkg.go.dev/encoding/json) standard golang packages.
+⚠️ Be careful, you must respect Article L.342-3 of the Intellectual Property Code and the CGU of the website where you scrape its data.
 
 ### You have to scrape data from this website : 
 - [Nike Chaussures et Basket pour Hommes](https://www.nike.com/fr/w/hommes-chaussures-nik1zy7ok)
@@ -39,12 +41,20 @@ To extract data, you have to extract by using the css tag of div.
 For example if you want to extract all links from a page => `href`.
 
 ### Ressources
-- 
+- [Go Colly](https://go-colly.org/docs/)
+- [OS](https://pkg.go.dev/os)
+- [encoding/json](https://pkg.go.dev/encoding/json)
 
 
 ## 🧑🏻‍💻 Exercise 2 : Dataviz
 
-You have to do a datavisualization of your data (the data extracted in the first exercise).
+You have to do a datavisualization of one of these data :
+- [Football Data from Transfermarket](https://www.kaggle.com/datasets/davidcariboo/player-scores)
+- [Population mondiale](https://www.kaggle.com/datasets/dinarkhan/worldpopulation2023)
+- [Spécificités de voiture entre 1945 et 2020](https://www.kaggle.com/datasets/jahaidulislam/car-specification-dataset-1945-2020)
+- [Les animés en 2022](https://www.kaggle.com/datasets/vishalmane10/anime-dataset-2022)
+- [Cryptocurrency Price & Market Data](https://www.kaggle.com/datasets/thedevastator/cryptocurrency-price-market-data)
+- You can chose other datasets on : [kaggle](https://www.kaggle.com/datasets).
 
 ### 🛠️ Installation
 
