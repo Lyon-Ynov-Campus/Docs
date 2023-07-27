@@ -2,7 +2,7 @@
   
 This is a workshop that introduce you to data.
 In this workshop, you will use scraping in order to extract data from a website with Golang Colly and stock them in a .csv file.
-Then, you are going to make a datavisualization of your data.
+Then, you are going to make a datavisualization of the data you want.
         
 
 ## 🧑🏻‍💻 Exercise 1 : Web scraping
@@ -29,7 +29,8 @@ import "github.com/gocolly/colly/v2"
 
 Then, you have to use this package in order to scrape data from an e-commerce website, and extract them to a .json file.
 You will need also [OS](https://pkg.go.dev/os) and [encoding/json](https://pkg.go.dev/encoding/json) standard golang packages.
-⚠️ Be careful, you must respect Article L.342-3 of the Intellectual Property Code and the CGU of the website where you scrape its data.
+
+#### ⚠️⚠️ Be careful, you must respect Article L.342-3 of the Intellectual Property Code and the CGU of the website where you scrape its data.
 
 ### You have to scrape data from this website : 
 - [Nike Chaussures et Basket pour Hommes](https://www.nike.com/fr/w/hommes-chaussures-nik1zy7ok)
