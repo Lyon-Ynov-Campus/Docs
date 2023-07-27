@@ -54,7 +54,7 @@ You have to do a datavisualization of one of these data :
 - [Spécificités de voiture entre 1945 et 2020](https://www.kaggle.com/datasets/jahaidulislam/car-specification-dataset-1945-2020)
 - [Les animés en 2022](https://www.kaggle.com/datasets/vishalmane10/anime-dataset-2022)
 - [Cryptocurrency Price & Market Data](https://www.kaggle.com/datasets/thedevastator/cryptocurrency-price-market-data)
-- You can chose other datasets on : [kaggle](https://www.kaggle.com/datasets).
+- You can choose another dataset on : [kaggle](https://www.kaggle.com/datasets).
 
 ### 🛠️ Installation
 
