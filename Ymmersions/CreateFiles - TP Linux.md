@@ -33,7 +33,3 @@ Create the files **TextFile3.txt** and **TextFile4.txt** with the same symbolic 
 ![Droits fichiers](https://i.imgur.com/RV8NbB3.png)
 
 <br>
-
-#### Run the script
-
-To run the script, you must give it the execute and write rights (chmod 500 ./CreateFiles/CheckFiles.sh) and then you can run it with **./CheckFiles.sh**.
