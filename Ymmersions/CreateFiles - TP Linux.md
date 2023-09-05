@@ -34,12 +34,6 @@ Create the files **TextFile3.txt** and **TextFile4.txt** with the same symbolic 
 
 <br>
 
-### Download the test script
-
-You can test your exercise by running the script that you can find [here](https://raw.githubusercontent.com/Lyon-Ynov-Campus/Docs/main/Ymmersions/CheckFiles.sh).
-
-Download the CheckFiles.sh file and put it in the **./CreateFiles/** directory (so that its path is **/CreateFiles/CheckFiles.sh**)
-
 #### Run the script
 
 To run the script, you must give it the execute and write rights (chmod 500 ./CreateFiles/CheckFiles.sh) and then you can run it with **./CheckFiles.sh**.
