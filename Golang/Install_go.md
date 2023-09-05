@@ -13,7 +13,7 @@ Une fois dedans cliquez sur votre version de Linux puis dans `home`, et pour fin
 
 * Ouvrez un terminal WSL (linux) puis executez la commande suivante. 
 ```
-sudo rm -rf /usr/local/go && tar -C /usr/local -xzf go1.19.1.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.0.linux-amd64.tar.gz
 ```
 Cette commande supprime l'ancienne version de go si existente, puis décompresse l'archive dans le dossier `/usr/local`
 
